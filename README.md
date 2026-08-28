@@ -13,6 +13,11 @@ The figure below outlines the high-level steps:
 
 IgDiscover requires Python 3.8+ and conda. If you do not have conda set up, use the (mini-forge](https://github.com/conda-forge/miniforge), then install igdiscover using `install.sh`. 
 
+You may also want to install additional tools for QC and converting bcl data to fastq:
+- fastqc `conda install bioconda::fastqc`
+- multiqc `conda install bioconda::multiqc`
+- bcl-convert `https://support.illumina.com/downloads/bcl-convert-v4-5-4-installers.html`
+
 ## 2. Download and Prepare the Database (OGRDB)
 
 1. Visit: https://ogrdb.airr-community.org/. See the [database README](ogrdb_database/README.md) for details
